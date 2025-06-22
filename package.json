@@ -2,10 +2,10 @@
   "name": "garbage-collection-app",
   "version": "1.0.0",
   "private": true,
+  "description": "Garbage collection application with React frontend",
   "scripts": {
-    "start": "cd garbagecollector && npm install && npm start",
-    "build": "cd garbagecollector && npm install && npm run build",
+    "start": "cd garbagecollector && npm start",
+    "build": "cd garbagecollector && npm run build",
     "install": "cd garbagecollector && npm install"
-  },
-  "description": "Full-stack garbage collection application with React frontend and Node.js backend"
+  }
 }

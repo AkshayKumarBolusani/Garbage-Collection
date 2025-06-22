@@ -1,10 +1,11 @@
 {
-    "name": "server",
+    "name": "garbage-collection-server",
     "version": "1.0.0",
-    "description": "Express backend for your application",
+    "description": "Backend server for garbage collection app",
     "main": "App.js",
     "scripts": {
-        "start": "node App.js"
+        "start": "node App.js",
+        "dev": "nodemon App.js"
     },
     "keywords": [],
     "author": "",
