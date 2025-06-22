@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "cd garbagecollector && npm install && npm start",
     "build": "cd garbagecollector && npm install && npm run build",
-    "start": "cd garbagecollector && npm start",
     "install": "cd garbagecollector && npm install"
   },
-  "dependencies": {
-    "react-datepicker": "^6.9.0"
-  }
+  "description": "Full-stack garbage collection application with React frontend and Node.js backend"
 }
