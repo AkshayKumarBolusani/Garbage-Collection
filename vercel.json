@@ -1,5 +1,4 @@
 {
-  "rootDirectory": "garbagecollector",
   "rewrites": [
     {
       "source": "/(.*)",
