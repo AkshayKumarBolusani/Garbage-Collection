@@ -1,4 +1,12 @@
 {
+  "name": "garbage-collection-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd garbagecollector && npm install && npm run build",
+    "start": "cd garbagecollector && npm start",
+    "install": "cd garbagecollector && npm install"
+  },
   "dependencies": {
     "react-datepicker": "^6.9.0"
   }
